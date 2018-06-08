@@ -1,0 +1,82 @@
+body {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Microsoft Yahei', sans-serif;
+    min-width: 990px;
+}
+
+body, button,img {
+    margin: 0;
+    padding: 0;
+}
+
+.activity-title {
+    width: 990px;
+    height: 514px;
+    background: #e1f2fc url("./assets/activity-title-bg.png") no-repeat center;
+}
+
+.activity-title span {
+    position: relative;
+    left: 132px;
+    top: 444px;
+
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    color: #cf464b;
+}
+
+.activity-detail {
+    position: fixed;
+    left: 938px;
+    top: 419px;
+
+    width: 52px;
+    height: 52px;
+
+    font-size: 16px;
+    background: #e06468;
+    text-align: center;
+    line-height: 26px;
+}
+
+.activity-advantage {
+    width: 990px;
+    height: 370px;
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    background: #f7c3c4;
+}
+
+.activity-promotion-rule {
+    width: 270px;
+    height: 275px;
+
+    display: inline-block;
+    background: #fff;
+    color: #e6002d;
+}
+
+.activity-member-rule{
+    width: 479px;
+    height: 275px;
+    display: inline-block;
+    margin-left: 15px;
+    background: #fff;
+}
+
+.activity-scan-back{
+    width: 990px;
+    height: 390px;
+    background:#ec7b7b url("assets/activity-scan-back-bg.png") no-repeat center;
+}
+
+.activity-goods-nav {
+    height: 554px;
+    width: 990px;
+    background: #fce9f0 url("assets/activity-introduction.png") no-repeat right bottom;
+}
